@@ -37,7 +37,7 @@ void setup() {
   // Buat folder dengan nama mp3 pada sd card //
   // Masukan file mp3 ke folder mp3 //
   // Ubah nama file dengan format 4 digit angka ///
-  // Contoh 0001.mp3, 0002.mp3, 0003.mp3 dst //
+  // Contoh 0001.mp3//
 
   mySerial.begin(9600);
   mp3_set_serial(mySerial); //set softwareSerial for DFPlayer
